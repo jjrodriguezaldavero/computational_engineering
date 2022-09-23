@@ -1,9 +1,0 @@
-#!/bin/bash
-#$ -cwd
-#$ -S /bin/bash
-#$ -N mm
-#$ -o mm
-#$ -e mm
-#$ -pe openmp 4
-
-for i in {100, 500, 1000}; do echo $i; time mm2 $i; done;

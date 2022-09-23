@@ -1,8 +1,0 @@
-#!/bin/bash
-#$ -cwd
-#$ -S /bin/bash
-#$ -N hello
-#$ -o hello.out.$JOB_ID
-#$ -e hello.err.$JOB_ID
-#$ -pe orte 8
-mpirun -np 8 ./hello

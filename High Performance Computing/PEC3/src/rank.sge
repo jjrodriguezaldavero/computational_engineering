@@ -1,0 +1,8 @@
+#!/bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -N rank
+#$ -o rank.out.$JOB_ID
+#$ -e rank.err.$JOB_ID
+#$ -pe orte 8
+mpirun -np 8 ./rank

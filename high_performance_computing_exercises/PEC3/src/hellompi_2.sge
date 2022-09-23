@@ -1,8 +1,0 @@
-#!/bin/bash
-#$ -cwd
-#$ -S /bin/bash
-#$ -N hellompi_2
-#$ -o hellompi_2.out.$JOB_ID
-#$ -e hellompi_2.err.$JOB_ID
-#$ -pe orte 3
-mpirun -np 3 ./hellompi_2

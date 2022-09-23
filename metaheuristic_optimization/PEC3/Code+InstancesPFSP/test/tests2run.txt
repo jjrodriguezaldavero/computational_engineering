@@ -1,2 +1,0 @@
-# instance| distribution | beta1 | beta2 | seed
-tai060_50_20 t 0.2	0.2	510168
